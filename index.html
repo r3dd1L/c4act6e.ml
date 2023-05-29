@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>C4acT6e</title>
+<link href="css/core.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+<meta name="yandex-verification" content="f9cfe1c00003167a">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link href="css/font-awesome.css" rel="stylesheet">
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/plugins.min.js"></script>
+<script src="js/main.js"></script>
+<style>@font-face{font-family:Pompadur;src:url(fonts/font.eot);src:local(pompadur),url(fonts/font.ttf);}h1{font-family:Pompadur,'Comic Sans MS',cursive;}</style>
+<script> 
+	document.onkeydown = function(e) { 
+	if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly. 
+	} 
+	return false; 
+	}; 
+	</script>
+<script> 
+	function click() { 
+	if (event.button==2||event.button==3) { 
+	oncontextmenu='return false'; 
+	} 
+	} 
+	document.onmousedown=click 
+	document.oncontextmenu = new Function("return false;") 
+	</script>
+<script>
+	function disableWheelScroll(){
+	if (document.body.addEventListener) document.body.addEventListener('DOMMouseScroll', blockWheel, false);
+	document.body.onmousewheel = blockWheel;
+	}
+	function blockWheel(event){
+	if (!event) event = window.event;
+	if (event.stopPropagation) event.stopPropagation();
+	else event.cancelBubble = true;
+	if(event.preventDefault) event.preventDefault();
+	else event.returnValue = false;
+	}
+	disableWheelScroll();
+	</script>
+	
+<script>
+		
+		function clock() {
+			//Save the times in variables
+			var today = new Date();
+			var hours = today.getHours();
+			var minutes = today.getMinutes();
+			var seconds = today.getSeconds();
+			var month = today.getMonth();
+			var day = today.getDate();
+			var year = today.getFullYear();
+			var monthNames = ["JAN.", "FEB.", "MAR.", "APR.", "MAY.", "JUN.", "JUL.", "AUG.", "SEP.", "OCT.", "NOV.", "DEC."];
+			//Set the AM or PM time
+			if(hours >= 12) {
+				meridiem = "PM";
+			} else {
+				meridiem = "AM";
+			}
+			//convert hours to 12 hour format and put 0 in front
+			if(hours > 12) {
+				hours = hours - 12;
+			} else if(hours === 0) {
+				hours = 12;
+			}
+			//Put 0 in front of single digit minutes and seconds
+			if(minutes < 10) {
+				minutes = "0" + minutes;
+			} else {
+				minutes = minutes;
+			}
+			if(seconds < 10) {
+				seconds = "0" + seconds;
+			} else {
+				seconds = seconds;
+			}
+			document.getElementById("clock").innerHTML = (meridiem + " " + hours + ":" + minutes);
+			document.getElementById("date").innerHTML = (monthNames[month] + " " + day + " " + year);
+		}
+		setInterval('clock()', 0);
+</script>
+<span id="clock" style="position: fixed; bottom: 10%; left: 5%;">PM 06:30</span> <span id="date" style="position: fixed; bottom: 5%; left: 5%;">JAN. 23 2020</span>
+
+</head>
+<body onmousedown="return false" onselectstart="return false">
+<style>body{overflow:hidden}</style>
+<script>disableWheelScroll();</script>
+<div id="star" class="video mask overlay">
+<i class="volume-button fa fa-volume-up"></i>
+<i class="stop-button fa fa-pause"></i>
+<div class="video-fallback"></div>
+<div class="pagebottom">
+	<center>
+		<marquee height="60" width="850"> <font color="DarkMagenta"><p class="marq">ACHTUNG!!! 18+ CONTENT!!!⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"Простите меня за мой гигантский и ахуенный член."(с)Санечка⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"Слыш, долбоеб, как дела?"(с)Санечка2⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"Ну я тебя люблю вообще-то, это ты выебываешься"(с)BitriXXX⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"Игнорщик хуев"(с)Киця Владик⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀"Напишите пожалуйста C4ACT63 что он хуй ебаный,в жопу выебаный игнорщик"(с)Полинка⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</p></font></marquee>
+	</center>
+</div>
+<video id="video" autoplay loop>
+<source src="videos/video.mp4" type="video/mp4"/>
+Your browser does not support the video tag. I suggest you upgrade your browser.
+</video>
+<canvas class="cover"></canvas>
+</div>
+<div class="pageoverlay">
+<div class="lightbox">
+<div class="awrapper">
+<div class="titles fadeInDown">
+<h1><font color="BlueViolet">#</font>C4ac<font color="BlueViolet">T6e</font></h1>
+</div>
+    <div class="media fadeInUp">
+        <a href="https://instagram.com/r3dd1l" id="vk" target="_blank">
+            <i class="fa fa-instagram"></i>
+        </a>
+        <a href="http://steamcommunity.com/id/r3dd1l" target="steam">
+            <i class="fa fa-steam"></i>
+        </a>
+        <a href="http://t.me/+EiFBn2JCSNU0Yjli" target="telegram">
+            <i class="fa fa-telegram"></i>
+        </a>
+        <a href="https://github.com/r3dd1L" target="github">
+            <i class="fa fa-github"></i>
+        </a>
+        <a href="http://t.me/ChatGPTPybot" target="chat">
+            <i class="fa fa-commenting"></i>
+        </a>
+        <a href="https://www.twitch.tv/c4act6e_" target="twitch">
+            <i class="fa fa-twitch"></i>
+        </a>		
+        <a href="https://donatello.to/r3dd1L" target="donate">
+            <i class="fa fa-money"></i>
+        </a>
+    </div>
+</div>
+</div>
+</div>
+</body>
+</html>
